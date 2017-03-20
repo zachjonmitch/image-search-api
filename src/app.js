@@ -4,7 +4,7 @@ import path from 'path';
 var Bing = require('node-bing-api') ({ accKey: "aa4c730a71ff4c37bdd72c2d26f9dce1"});
 
 import mongod from 'mongodb';
-var mLab = "mongodb://" + process.env.IP + "/save-images";
+var mLab = "mongodb://" + process.env.IP || "localhost:27017" + "/save-images";
 var MongoClient = mongod.MongoClient;
 
 app.use(express.static('styles'));

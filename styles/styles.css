@@ -1,3 +1,18 @@
-body {
-    background: grey;
+body, html {
+    width: 83%;
+    height: 100%;
+    background: #f2f2f2;
+    font-family: 'Raleway';
+    margin: 10px auto;
+}
+
+blockquote {
+    border-left: 5px solid grey;
+    margin-left: 0;
+    padding-left: 50px;
+}
+
+code {
+    background: #d9d9d9;
+    color: #c7254e;
 }
