@@ -1,0 +1,20 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "Display list of url links based on input keyword",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "zjmitche",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "bing.search": "^1.0.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.24",
+    "node-bing-api": "^3.2.1"
+  }
+}
